@@ -14,6 +14,9 @@
     background-repeat: no-repeat;
     
 }
+.back{
+    background-color: rgb(241, 243, 242);
+}
  .b{
     color: #fff;
 }
@@ -28,9 +31,9 @@ html,body{
     padding-bottom: 100px;
 }
 #footer{
-    background-color: #2f4961;
+    background-color: #0f0f0f;
     position: relative;
-    height: 150px;
+    height: 300px;
     margin-top: -10px;
     clear: both
 }
@@ -391,5 +394,34 @@ h6{
 }
 .foo{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 25px;
+    text-indent: 70px;
+}
+.social{
+    font-size: 30px;
+    text-indent: 70px;
+    transform: translateX(600px) translateY(-130px);
+    
+}
+.thank{
+    text-align: center;
+    font-size: 30px;
+    transform: translateX(480px) translateY(-200px);
+    color: #fff;
+}
+.about{
+    color: rgb(22, 22, 22);
+    font-weight: 200%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.res{
+    margin: 200px 1130px;
+    width: 900px;
 }
